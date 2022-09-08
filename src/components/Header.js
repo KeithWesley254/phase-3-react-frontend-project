@@ -27,18 +27,18 @@ const Header = () => {
                       fontFamily: 'Montserrat',
                       fontSize: '18px',
                       fontWeight: 700,
-                      letterSpacing: '.3rem',
-                      color: '#fff',
+                      letterSpacing: '.2rem',
+                      color: '#0d80fd',
                       textDecoration: 'none',
                       cursor: 'pointer',
                     }}
                     >
-                      <img src={image} alt="logo" style={{maxHeight: "50px", maxWidth: "90px", cursor: "pointer"}}/>
+                      <img src={image} alt="logo" style={{maxHeight: "40px", maxWidth: "60px", cursor: "pointer"}}/>
                         TXC Esport League
                     </Typography>
 
                     <Typography 
-                    // onClick={() => navigate("/feedback")}
+                    onClick={() => navigate("/games")}
                     sx={{
                       mr: 2,
                       display: { xs: 'none', md: 'flex' },
@@ -55,7 +55,7 @@ const Header = () => {
                     </Typography>
                     
                     <Typography 
-                    // onClick={() => navigate("/feedback")}
+                    onClick={() => navigate("/players")}
                     sx={{
                       mr: 2,
                       display: { xs: 'none', md: 'flex' },
@@ -72,7 +72,7 @@ const Header = () => {
                     </Typography>
 
                     <Typography 
-                    // onClick={() => navigate("/feedback")}
+                    onClick={() => navigate("/teams")}
                     sx={{
                       mr: 2,
                       display: { xs: 'none', md: 'flex' },
@@ -89,7 +89,7 @@ const Header = () => {
                     </Typography>
 
                     <Typography 
-                    // onClick={() => navigate("/feedback")}
+                    onClick={() => navigate("/roles")}
                     sx={{
                       mr: 2,
                       display: { xs: 'none', md: 'flex' },
@@ -106,7 +106,7 @@ const Header = () => {
                     </Typography>
 
                     <Typography 
-                    // onClick={() => navigate("/feedback")}
+                    onClick={() => navigate("/about")}
                     sx={{
                       mr: 2,
                       display: { xs: 'none', md: 'flex' },
