@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import AboutPage from './pages/AboutPage';
 import GamesPage from './pages/GamesPage';
@@ -22,6 +23,7 @@ function App() {
       <Route path='/teams' element={<TeamsPage />}/>
       <Route path='/about' element={<AboutPage />}/>
     </Routes>
+    <Footer />
    </div>
    </BrowserRouter>
   );

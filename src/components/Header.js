@@ -2,7 +2,7 @@ import { AppBar, Toolbar, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import image from './esportlogo.jpg'
+import image from '../../src/esportlogo.jpg';
 
 const Header = () => {
   
@@ -34,7 +34,7 @@ const Header = () => {
                     }}
                     >
                       <img src={image} alt="logo" style={{maxHeight: "40px", maxWidth: "60px", cursor: "pointer"}}/>
-                        TXC Esport League
+                        TXC Clan Esports
                     </Typography>
 
                     <Typography 
