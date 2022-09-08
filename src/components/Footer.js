@@ -29,16 +29,19 @@ const Footer = () => {
                     <Grid item xs={12} sm={4}>
                         <Box borderBottom={1}>Socials</Box>
                         <Box>
-                            <Link href='https://www.instagram.com/keith_wesley_/' target="_blank" color="inherit" underline='none'>Instagram</Link>
+                            <Link href='https://www.instagram.com/keith_wesley_/' target="_blank" color="inherit" underline='none'><i class="fa-brands fa-instagram"></i> Instagram</Link>
                         </Box>
                         <Box>
-                            <Link href='https://www.youtube.com/channel/UCZ-MKtsBjTD4glktrbEYFXw' target="_blank" color="inherit" underline='none'>Youtube</Link>
+                            <Link href='https://www.youtube.com/channel/UCZ-MKtsBjTD4glktrbEYFXw' target="_blank" color="inherit" underline='none'><i class="fa-brands fa-youtube"></i> Youtube</Link>
                         </Box>
                         <Box>
-                            <Link href='https://twitter.com/Keith_wesley_' color="inherit" target="_blank" underline='none'>Twitter</Link>
+                            <Link href='https://twitter.com/Keith_wesley_' color="inherit" target="_blank" underline='none'><i class="fa-brands fa-twitter"></i> Twitter</Link>
                         </Box>
                         <Box>
-                            <Link href='https://www.linkedin.com/in/keith-wesley-707802215/' color="inherit" target="_blank" underline='none'>LinkedIn</Link>
+                            <Link href='https://www.linkedin.com/in/keith-wesley-707802215/' color="inherit" target="_blank" underline='none'><i class="fa-brands fa-linkedin"></i> LinkedIn</Link>
+                        </Box>
+                        <Box>
+                            <Link href='https://github.com/KeithWesley254' color="inherit" target="_blank" underline='none'><i class="fa-brands fa-github"></i> Github</Link>
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={4}>
