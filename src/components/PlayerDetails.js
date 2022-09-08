@@ -17,7 +17,7 @@ const PlayerDetails = ({totalPlayers, deletePlayer}) => {
 
     const navigate = useNavigate();
       
-    const handleChangePage = ( newPage ) => {
+    const handleChangePage = (e, newPage ) => {
         setPage(newPage);
     };
       
