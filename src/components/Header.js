@@ -28,7 +28,7 @@ const Header = () => {
                       fontSize: '18px',
                       fontWeight: 700,
                       letterSpacing: '.2rem',
-                      color: '#0d80fd',
+                      color: '#fff',
                       textDecoration: 'none',
                       cursor: 'pointer',
                     }}
