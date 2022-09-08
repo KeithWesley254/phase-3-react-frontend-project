@@ -22,7 +22,7 @@ const PlayersPage = () => {
           const goThru = allPlayers.filter((player) => player.id !== id)
               setAllPlayers(goThru)
           })
-      }
+    }
 
   return (
     <>
