@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import PlayersPage from './pages/PlayersPage';
 import RolesPage from './pages/RolesPage';
 import SpecificPlayer from './pages/SpecificPlayer';
+import SpecificTeam from './pages/SpecificTeam';
 import TeamsPage from './pages/TeamsPage';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path='/teams' element={<TeamsPage />}/>
       <Route path='/about' element={<AboutPage />}/>
       <Route path='/players/:id' element={<SpecificPlayer />}/>
+      <Route path='/teams/:id' element={<SpecificTeam />}/>
     </Routes>
     <Footer />
    </div>

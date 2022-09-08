@@ -31,7 +31,7 @@ const SpecificPlayer = () => {
     });
   }
 
-  function handleUpdateTeach() {
+  function handleUpdatePlayer() {
     fetch(`https://esports-api-wesley.herokuapp.com/players/${id}`, {
     method: "PATCH",
     headers: {
@@ -100,7 +100,7 @@ const SpecificPlayer = () => {
             </Box>
             <div>
             <FormControl sx={{ display: "flex", flexWrap: "wrap", m: 1, width: '10ch' }}>
-                <Button variant='contained' type='submit' onClick={handleUpdateTeach}>
+                <Button variant='contained' type='submit' onClick={handleUpdatePlayer}>
                     EDIT
                 </Button>
             </FormControl>
