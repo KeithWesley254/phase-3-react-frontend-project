@@ -108,42 +108,25 @@ const SpecificPlayer = () => {
         </Container>
         </div>
         <Box>
-          <div className='player-section'>
-            <div className='card-container'>
-              <div className='image-container'>
-                <img src={thePlayer.image_url} alt='playerImage'/>
-              </div>
-              <div className='card-slogan'>
-                <h2>What do I say?</h2>
-              </div>
-              <div className='card-body'>
-                <p>{thePlayer.slogan}</p>
+        <section className="amTheCaptainNow">
+          <h2 className="gaming-title">{thePlayer.name}</h2>
+            <div className="myStory">
+            <div className="myImg">
+              <div className='card-container'>
+                <div className='image-container'>
+                  <img src={thePlayer.image_url} alt='playerImage'/>
+                </div>
               </div>
             </div>
-            <div className='player-details'>
-              <Typography variant="h3" className="coinHeader">
-                {thePlayer.name}
-              </Typography>
-              &nbsp;
-              <span >
-                        <Typography variant="h5" style={{fontWeight: 'bold'}}>
-                            Age: {thePlayer.age}
-                        </Typography>
-              </span>
-              &nbsp;
-              <span >
-                        <Typography variant="h5" style={{fontWeight: 'bold'}}>
-                            Role Played: {thePlayer.role_played}
-                        </Typography>
-              </span>
-              &nbsp;
-              <span >
-                        <Typography variant="h5" style={{fontWeight: 'bold'}}>
-                            Team_id: {thePlayer.team_id}
-                        </Typography>
-              </span>
+                <div className="aboutText">
+                    <h5>Age: {thePlayer.age}</h5>
+                    <h5>Role Played: {thePlayer.role_played}</h5>
+                    <h5>Team_id: {thePlayer.team_id}</h5>
+                    <h5>Slogan:</h5>
+                    <p>{thePlayer.slogan} </p>
+                </div>
             </div>
-          </div>
+          </section>
         </Box>
       </div>
     </ThemeProvider>
