@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import PlayerDetails from '../components/PlayerDetails';
+import PlayersForm from '../components/PlayersForm';
 
 const PlayersPage = () => {
 
@@ -24,9 +25,14 @@ const PlayersPage = () => {
           })
     }
 
+    function handlePosting(data){
+      setAllPlayers([...allPlayers, data])
+    }
+
   return (
     <>
     <PlayerDetails totalPlayers={allPlayers} deletePlayer={deletePlayer}/>
+    <PlayersForm handlePosting={handlePosting}/>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import TeamDetails from '../components/TeamDetails';
+import TeamsForm from '../components/TeamsForm';
 
 const TeamsPage = () => {
 
@@ -22,9 +23,14 @@ const TeamsPage = () => {
           })
     }
 
+    function handlePosting(data){
+      setAllTeams([...allTeams, data])
+    }
+
   return (
     <>
     <TeamDetails allTeams={allTeams} deleteTeam={deleteTeam}/>
+    <TeamsForm handlePosting={handlePosting}/>
     </>
   )
 }
