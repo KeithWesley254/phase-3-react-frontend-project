@@ -11,8 +11,6 @@ const GamesPage = () => {
         .then(data => setAllGames(data))
     }, []);
 
-    console.log(allGames)
-
   return (
     <>
     <GamesDetails totalGames={allGames}/>
