@@ -20,23 +20,23 @@ const Footer = () => {
                         <Box borderBottom={1}>Navigate</Box>
                         &nbsp;
                         <Box>
-                            <Link onClick={() => navigate(`/games`)} color="inherit" underline='none'>Games</Link>
+                            <Link onClick={() => navigate(`/games`)} style={{cursor: 'pointer'}} color="inherit" underline='none'>Games</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link onClick={() => navigate(`/players`)} color="inherit" underline='none'>Players</Link>
+                            <Link onClick={() => navigate(`/players`)} style={{cursor: 'pointer'}} color="inherit" underline='none'>Players</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link onClick={() => navigate(`/teams`)} color="inherit" underline='none'>Teams</Link>
+                            <Link onClick={() => navigate(`/teams`)} style={{cursor: 'pointer'}} color="inherit" underline='none'>Teams</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link onClick={() => navigate(`/roles`)} color="inherit" underline='none'>Gaming Roles</Link>
+                            <Link onClick={() => navigate(`/roles`)} style={{cursor: 'pointer'}} color="inherit" underline='none'>Gaming Roles</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link onClick={() => navigate(`/about`)} color="inherit" underline='none'>Contact</Link>
+                            <Link onClick={() => navigate(`/about`)} style={{cursor: 'pointer'}} color="inherit" underline='none'>Contact</Link>
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={4}>
