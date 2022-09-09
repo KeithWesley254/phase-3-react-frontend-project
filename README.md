@@ -2,14 +2,19 @@
 
 # Project Name:
 
+TXC Clan Esports
+
 # Author:
 
 KEITH WESLEY
 
 # Description:
 
-# Setup Instructions:
+TXC Clan Esports provides fundamental information on esport players, their teams and relevant gaming information. In addition we have popular games in the esports scene for anyone who would like to try gaming as a career. The goal of the application is to reach Gamers in areas that have been ignored and provide a platform from which they can reach the big stage.
 
+# Setup Instructions:
+The web application requires no more than accessing it.
+Click on a specific row for teams and players section to get additional information.
 # Deployment Link:
 
 # LICENSE:
