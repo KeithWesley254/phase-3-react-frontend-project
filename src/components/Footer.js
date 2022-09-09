@@ -2,8 +2,10 @@ import React from 'react'
 import { Container } from "@mui/system";
 import { Box, Grid, Link, Typography } from '@mui/material';
 import image from '../../src/esportlogo.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const Footer = () => {
+    const navigate = useNavigate();
   return (
     <div>
         <Box 
@@ -18,23 +20,23 @@ const Footer = () => {
                         <Box borderBottom={1}>Navigate</Box>
                         &nbsp;
                         <Box>
-                            <Link href='/games' color="inherit" underline='none'>Games</Link>
+                            <Link onClick={() => navigate(`/games`)} color="inherit" underline='none'>Games</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link href='/players' color="inherit" underline='none'>Players</Link>
+                            <Link onClick={() => navigate(`/players`)} color="inherit" underline='none'>Players</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link href='/teams' color="inherit" underline='none'>Teams</Link>
+                            <Link onClick={() => navigate(`/teams`)} color="inherit" underline='none'>Teams</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link href='/roles' color="inherit" underline='none'>Gaming Roles</Link>
+                            <Link onClick={() => navigate(`/roles`)} color="inherit" underline='none'>Gaming Roles</Link>
                         </Box>
                         &nbsp;
                         <Box>
-                            <Link href='/about' color="inherit" underline='none'>Contact</Link>
+                            <Link onClick={() => navigate(`/about`)} color="inherit" underline='none'>Contact</Link>
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={4}>
