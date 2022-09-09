@@ -15,6 +15,7 @@ TXC Clan Esports provides fundamental information on esport players, their teams
 # Setup Instructions:
 The web application requires no more than accessing it.
 Click on a specific row for teams and players section to get additional information.
+
 # Deployment Link:
 
 # LICENSE:

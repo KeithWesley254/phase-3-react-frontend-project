@@ -12,8 +12,6 @@ const PlayersPage = () => {
         .then(data => setAllPlayers(data))
     }, []);
 
-    console.log(allPlayers)
-
     function deletePlayer(id){
       fetch(`https://esports-api-wesley.herokuapp.com/players/${id}`,{
           method: "DELETE",
