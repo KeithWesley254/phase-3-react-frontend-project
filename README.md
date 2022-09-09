@@ -17,7 +17,7 @@ The web application requires no more than accessing it.
 Click on a specific row for teams and players section to get additional information.
 
 # Deployment Link:
-https://631b069d89b56219ef07af6f--txc-clan-esports.netlify.app/
+https://main--txc-clan-esports.netlify.app/
 
 # LICENSE:
 
