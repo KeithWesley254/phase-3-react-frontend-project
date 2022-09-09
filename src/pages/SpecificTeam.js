@@ -65,7 +65,7 @@ const SpecificTeam = () => {
             <div>
             <Container className='formContainer'>
             <div 
-            style={{ fontSize: "20px", fontWeight: "bold" }}
+            style={{ fontSize: "20px", fontWeight: "bold", marginTop: "50px" }}
             >
                 Edit Team Details
             </div>

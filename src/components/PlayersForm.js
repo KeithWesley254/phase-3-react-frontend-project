@@ -53,7 +53,7 @@ const PlayersForm = ({handlePosting}) => {
     <div>
         <Container className='formContainer'>
     <div 
-    style={{ fontSize: "20px", fontWeight: "bold" }}
+    style={{ fontSize: "20px", fontWeight: "bold", marginTop: "50px" }}
     >
         Register Player
     </div>
